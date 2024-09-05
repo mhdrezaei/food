@@ -3,9 +3,11 @@ import Link from "next/link";
 
 import LogoImage from "@/assets/logo.png";
 import classes from "./main-header.module.css";
+import BackgraundHeader from "./backgraund-header";
 export const MainHeader = () => {
   return (
     <>
+      <BackgraundHeader />
       <header className={classes.header}>
         <Link className={classes.logo} href="/">
           <Image src={LogoImage} alt="A plate full of meals" priority />
