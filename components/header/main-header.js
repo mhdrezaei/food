@@ -19,7 +19,7 @@ export const MainHeader = () => {
               <Link href="/meals">Browse Meals</Link>
             </li>
             <li>
-              <Link href="/comunity">Community</Link>
+              <Link href="/community">Community</Link>
             </li>
           </ul>
         </nav>
